@@ -6,3 +6,8 @@ class Mahasiswa
 public:
     Mahasiswa();
 };
+
+Mahasiswa::Mahasiswa()
+{
+    cout << "Constructor Terpanggil" << endl;
+}
