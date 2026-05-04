@@ -11,3 +11,8 @@ Mahasiswa::Mahasiswa()
 {
     cout << "Constructor Terpanggil" << endl;
 }
+
+int main() {
+    Mahasiswa mhs;
+    return 0;
+}
